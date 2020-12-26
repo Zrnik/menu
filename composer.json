@@ -1,0 +1,30 @@
+{
+  "name": "zrnik/menu",
+  "description": "S1mple menu model.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Štěpán Zrník",
+      "email": "stepan@zrnik.eu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zrnik\\Menu\\": "src/"
+    }
+  },
+  "require": {
+    "nette/http": "^3",
+    "nette/utils": "^3",
+    "nette/component-model": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9",
+    "phpstan/phpstan": "^0.12"
+  },
+  "scripts": {
+    "phpstan": "phpstan analyse -l 7 /src",
+    "phpunit": "phpunit ./tests/ --bootstrap vendor/autoload.php"
+  }
+}
