@@ -1,6 +1,7 @@
 {
   "name": "zrnik/menu",
   "description": "S1mple menu model.",
+  "version": "v0.0.1",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
