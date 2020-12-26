@@ -10,6 +10,8 @@ It contains 2 classes:
 - **Zrnik\Menu\Menu** - this is a container (extending `Nette\ComponentModel\Container`), but 
   changed, so it only takes `Url` or `Menu` as a child.
   
+Both classes have an additional parameter and public property `$label`.
+  
 Thats all.
 
 ### Example usage:

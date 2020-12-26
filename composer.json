@@ -24,7 +24,7 @@
     "phpstan/phpstan": "^0.12"
   },
   "scripts": {
-    "phpstan": "phpstan analyse -l 7 /src",
+    "phpstan": "phpstan analyse -l 7 ./src/",
     "phpunit": "phpunit ./tests/ --bootstrap vendor/autoload.php"
   }
 }
