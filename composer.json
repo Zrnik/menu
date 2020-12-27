@@ -16,6 +16,7 @@
     }
   },
   "require": {
+    "PHP": ">=8.0",
     "nette/http": "^3",
     "nette/utils": "^3",
     "nette/component-model": "^3.0"

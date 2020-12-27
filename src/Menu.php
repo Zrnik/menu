@@ -24,9 +24,11 @@ class Menu extends Container
         return null;
     }
 
+
     public function addComponent(IComponent $component, ?string $name, string $insertBefore = null): static
     {
 
+        //I cant put union type here because of the interface compatibility.
         if (
             !($component instanceof Menu)
             &&

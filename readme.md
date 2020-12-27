@@ -14,6 +14,10 @@ Both classes have an additional parameter and public property `$label`.
   
 Thats all.
 
+### Requirements:
+
+`PHP >= 8.0`
+
 ### Example usage:
 
 ```php
